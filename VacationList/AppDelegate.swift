@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let locationList = LocationList()
+        let tableViewController = window?.rootViewController as? LocationTableViewController
+        tableViewController?.locationModel = locationList
         return true
     }
 

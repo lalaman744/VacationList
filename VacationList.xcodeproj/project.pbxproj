@@ -14,6 +14,10 @@
 		B803052C223E990400304ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B803052A223E990400304ADF /* LaunchScreen.storyboard */; };
 		B8030537223E990500304ADF /* VacationListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030536223E990500304ADF /* VacationListTests.swift */; };
 		B8030542223E990500304ADF /* VacationListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030541223E990500304ADF /* VacationListUITests.swift */; };
+		B8030551223E9BF400304ADF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8030550223E9BF400304ADF /* MapKit.framework */; };
+		B8030553223EE4C600304ADF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030552223EE4C600304ADF /* Location.swift */; };
+		B8030555223EE58700304ADF /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030554223EE58700304ADF /* LocationList.swift */; };
+		B8030557223EEEA100304ADF /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8030556223EEEA100304ADF /* LocationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B803053D223E990500304ADF /* VacationListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8030541223E990500304ADF /* VacationListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationListUITests.swift; sourceTree = "<group>"; };
 		B8030543223E990500304ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8030550223E9BF400304ADF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B8030552223EE4C600304ADF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B8030554223EE58700304ADF /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
+		B8030556223EEEA100304ADF /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8030551223E9BF400304ADF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				B8030535223E990500304ADF /* VacationListTests */,
 				B8030540223E990500304ADF /* VacationListUITests */,
 				B803051F223E990300304ADF /* Products */,
+				B803054F223E9BF400304ADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +109,10 @@
 			children = (
 				B8030521223E990300304ADF /* AppDelegate.swift */,
 				B8030523223E990300304ADF /* ViewController.swift */,
+				B8030552223EE4C600304ADF /* Location.swift */,
+				B8030554223EE58700304ADF /* LocationList.swift */,
 				B8030525223E990300304ADF /* Main.storyboard */,
+				B8030556223EEEA100304ADF /* LocationTableViewController.swift */,
 				B8030528223E990400304ADF /* Assets.xcassets */,
 				B803052A223E990400304ADF /* LaunchScreen.storyboard */,
 				B803052D223E990400304ADF /* Info.plist */,
@@ -123,6 +136,14 @@
 				B8030543223E990500304ADF /* Info.plist */,
 			);
 			path = VacationListUITests;
+			sourceTree = "<group>";
+		};
+		B803054F223E9BF400304ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8030550223E9BF400304ADF /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8030524223E990300304ADF /* ViewController.swift in Sources */,
+				B8030553223EE4C600304ADF /* Location.swift in Sources */,
+				B8030555223EE58700304ADF /* LocationList.swift in Sources */,
+				B8030557223EEEA100304ADF /* LocationTableViewController.swift in Sources */,
 				B8030522223E990300304ADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
